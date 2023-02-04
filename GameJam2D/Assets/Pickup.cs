@@ -8,10 +8,10 @@ public class Pickup : MonoBehaviour
 {
     // Start is called before the first frame update
     
-    private ScoreManager _scoreManager;
+    [SerializeField] ScoreManager _scoreManager;
     private void Start()
     {
-        _scoreManager = GameObject.Find("Score").GetComponent<ScoreManager>();
+        _scoreManager = GameObject.Find("GameManager").GetComponent<ScoreManager>();
         
     }
 
@@ -19,8 +19,8 @@ public class Pickup : MonoBehaviour
     {
         if (col.gameObject.tag == "Player")
         {
-           // _scoreManager.AddScore();
-            
+           _scoreManager.AddScore();
+           Destroy(this.gameObject);
         }
         
     }
