@@ -16,10 +16,13 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
 
+    Animator anim;
+    bool flipped;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        anim = gameObject.GetComponent<Animator>();
     }
 
     private void Update()
@@ -33,22 +36,43 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.W) && rb.velocity.y > 0f)
         {
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
+            anim.SetBool("Jump", true);
         }
         
         if (!isGrounded())
         {
             rb.velocity -= new Vector2(rb.velocity.x, fallSpeed * Time.deltaTime);
+            
+            anim.SetBool("Jump", false);
         }
     }
 
     public void Jump(float power)
     {
         rb.velocity = new Vector2(rb.velocity.x, power);
+        anim.SetBool("Jump", true);
     }
+
     // Update is called once per frame
     void FixedUpdate()
     {
         rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+        print(rb.velocity);
+
+        if(rb.velocity.x > 0) //goes right
+        {
+            anim.SetBool("Run", true);
+            gameObject.GetComponent<SpriteRenderer>().flipX = true;
+        }
+        else if(rb.velocity.x < 0) //goes left
+        {
+            anim.SetBool("Run", true);
+            gameObject.GetComponent<SpriteRenderer>().flipX = false;
+        }
+        else
+        {
+            anim.SetBool("Run", false);
+        }
     }
 
     private bool isGrounded()
@@ -63,6 +87,15 @@ public class PlayerMovement : MonoBehaviour
             Vector3 localScale = transform.localScale;
             localScale.x *= -1f;
             transform.localScale = localScale;
+        }
+    }
+
+    void FlipPlayer()
+    {
+        if(flipped == false)
+        {
+            gameObject.GetComponent<SpriteRenderer>().flipX = true;
+            flipped = true;
         }
     }
 }
