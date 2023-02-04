@@ -1,9 +1,8 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class SecondPlayerMovement : MonoBehaviour
 {
     private float horizontal;
     private float speed = 8f;
@@ -24,13 +23,13 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        horizontal = Input.GetAxisRaw("Horizontal");
-        if (Input.GetKeyDown(KeyCode.W) && isGrounded())
+        horizontal = Input.GetAxisRaw("Horizontal2");
+        if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             Jump(jumpinPower);
         }
         
-        if (Input.GetKeyDown(KeyCode.W) && rb.velocity.y > 0f)
+        if (Input.GetKeyDown(KeyCode.UpArrow) && rb.velocity.y > 0f)
         {
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
         }
