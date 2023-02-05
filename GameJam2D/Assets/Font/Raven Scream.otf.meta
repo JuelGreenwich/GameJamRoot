@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: fd057f85122cd0e4c8d190847c5cff58
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Raven Scream
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 5778e1d20787cfe4db1991e245411625, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
