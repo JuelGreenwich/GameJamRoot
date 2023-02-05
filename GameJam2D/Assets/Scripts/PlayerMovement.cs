@@ -57,7 +57,7 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
         rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
-        print(rb.velocity);
+        //print(rb.velocity);
 
         if(rb.velocity.x > 0) //goes right
         {
