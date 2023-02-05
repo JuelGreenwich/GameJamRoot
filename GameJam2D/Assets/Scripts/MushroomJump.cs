@@ -9,6 +9,7 @@ public class MushroomJump : MonoBehaviour
     {
         if (col.gameObject.name == "Player2")
         {
+            FindObjectOfType<AudioManager>().PlayAudio("Bounce");
             var jumpCol = col.gameObject.GetComponent<SecondPlayerMovement>();
             jumpCol.Jump(22);
             Debug.Log("Hello");

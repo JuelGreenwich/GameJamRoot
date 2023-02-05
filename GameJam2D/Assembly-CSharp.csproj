@@ -79,6 +79,8 @@
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\AudioManager.cs" />
     <Compile Include="Assets\Button.cs" />
+    <Compile Include="Assets\Scripts\Victory.cs" />
+    <Compile Include="Assets\Scripts\Death.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

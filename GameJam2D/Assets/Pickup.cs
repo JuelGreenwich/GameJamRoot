@@ -20,7 +20,9 @@ public class Pickup : MonoBehaviour
         if (col.gameObject.tag == "Player")
         {
            _scoreManager.AddScore();
-           Destroy(this.gameObject);
+            FindObjectOfType<AudioManager>().PlayAudio("Carrot");
+            gameObject.SetActive(false);
+           //Destroy(this.gameObject);
         }
         
     }

@@ -63,11 +63,13 @@ public class PlayerMovement : MonoBehaviour
         {
             anim.SetBool("Run", true);
             gameObject.GetComponent<SpriteRenderer>().flipX = true;
+            FindObjectOfType<AudioManager>().PlayAudio("Run");
         }
         else if(rb.velocity.x < 0) //goes left
         {
             anim.SetBool("Run", true);
             gameObject.GetComponent<SpriteRenderer>().flipX = false;
+            FindObjectOfType<AudioManager>().PlayAudio("Run");
         }
         else
         {

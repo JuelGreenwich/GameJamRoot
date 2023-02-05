@@ -2563,7 +2563,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Juel - Iasmina - Delyth - Mathew
+  m_text: Juel - Iasmina - Delyth - Matthew
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 433a52b247fa65f408fa4d7715ea6ee6, type: 2}
   m_sharedMaterial: {fileID: 2517402295544670365, guid: 433a52b247fa65f408fa4d7715ea6ee6, type: 2}
