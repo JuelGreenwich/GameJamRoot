@@ -23,8 +23,8 @@ public class Button : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            gameObject.transform.localScale -= new Vector3(0, 0.3f, 0);
-            gameObject.transform.position -= new Vector3(0, 0.15f, 0);
+            gameObject.transform.localScale -= new Vector3(0, 0.5f, 0);
+            gameObject.transform.position -= new Vector3(0, 0.25f, 0);
             pressed = true;
         }
     }
@@ -32,7 +32,7 @@ public class Button : MonoBehaviour
     private void OnTriggerExit2D(Collider2D collision)
     {
         pressed = false;
-        gameObject.transform.localScale += new Vector3(0, 0.3f, 0);
-        gameObject.transform.position += new Vector3(0, 0.15f, 0);
+        gameObject.transform.localScale += new Vector3(0, 0.5f, 0);
+        gameObject.transform.position += new Vector3(0, 0.25f, 0);
     }
 }

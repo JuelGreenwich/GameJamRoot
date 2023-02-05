@@ -13,14 +13,14 @@ public class PlayerInventory : MonoBehaviour
 
     private void Start()
     {
-        keyImage.enabled = false;
+        //keyImage.enabled = false;
     }
 
     private void Update()
     {
-        if (hasKey)
+        /*if (hasKey)
         {
             keyImage.enabled = true;
-        }
+        }*/
     }
 }

@@ -16,7 +16,7 @@ public class RootObstacle : MonoBehaviour
     {
         if(gameManagerScript.buttonRootsPressed)
         {
-            gameObject.transform.position += new Vector3(0, -0.001f, 0);
+            gameObject.transform.position += new Vector3(0, -0.01f, 0);
         }
     }
 }
