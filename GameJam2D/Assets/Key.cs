@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class Key : MonoBehaviour
 {
-    private PlayerInventory inventory;
+    [SerializeField]private PlayerInventory inventory;
 
     private void Start()
     {
