@@ -1,0 +1,914 @@
+fileFormatVersion: 2
+guid: 9c935e03aff43cd408c3f4d8cf02e293
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fadedTrees1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 829
+        width: 110
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f92348c400dc3c418e22f59e37a8841
+      internalID: -1609671255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadedTrees2
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 829
+        width: 110
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61893c1b4a700ec4183d7f4d9eb11ecb
+      internalID: 693100862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadedTrees3
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 829
+        width: 110
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb2feddcca73504897fb8d97a01c410
+      internalID: -2016300526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadedTrees_3
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 829
+        width: 110
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6051420d6c020034a8d0f654fce16815
+      internalID: -1663708619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadedTrees_4
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 829
+        width: 110
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad137cd8cf35d240bc01cb5d8a126af
+      internalID: -243317384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadedTrees_5
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 829
+        width: 110
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fcfea75b926f4648817139929648fd8
+      internalID: 397128049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadedTrees_6
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 829
+        width: 110
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9da2549d77c434499e6ce4370d09be
+      internalID: 610698692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadedTrees_7
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 829
+        width: 110
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a194251a71e170a45928e3febe446430
+      internalID: -1411174033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadedTrees_8
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 829
+        width: 110
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c996e69636ba7984789c55a1a1f780a9
+      internalID: -412929170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadedTrees_9
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 829
+        width: 110
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f280ee9e9ecf6d94287d999c62756852
+      internalID: -501523674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadedTrees_10
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 829
+        width: 110
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29a55bba6ce9ca44bb4d37aeecfc40e
+      internalID: 970396601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadedTrees_11
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 829
+        width: 110
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93173ca0f3ac1994f8abfb291ac30b18
+      internalID: 1015577688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadedTrees_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 458
+        width: 110
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8585660439f3fd4592ead9f008f8a96
+      internalID: -1852565895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadedTrees_13
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 458
+        width: 110
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c4d68a01318ca489f5a4800d2e2c2f
+      internalID: 1486471178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadedTrees_14
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 458
+        width: 110
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743e568d0a1d1c344b6d0cfa163cbe00
+      internalID: -1994655698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadedTrees_15
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 458
+        width: 110
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd0359e44b33224aa217d6bae42d291
+      internalID: -9603462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadedTrees_16
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 458
+        width: 110
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b41089aabd6ef24caeb185725230410
+      internalID: 1595526540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadedTrees_17
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 458
+        width: 110
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3e132de8a4da044a0abe8d4797c608
+      internalID: 1617458888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadedTrees_18
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 458
+        width: 110
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c8150f7984046e47b12359e4185cd83
+      internalID: -103049964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadedTrees_19
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 458
+        width: 110
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f27aae808c843438cadcf3357f36d8
+      internalID: -1866797829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadedTrees_20
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 458
+        width: 110
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46370c89659ca6b4a8ecad0334731936
+      internalID: -1863727405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadedTrees_21
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 458
+        width: 110
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d379cbeb09833de4aa24bfaba99d0215
+      internalID: -1833016631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadedTrees_22
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 458
+        width: 110
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c32022a14829a419d212cdc12b2aca
+      internalID: -2115233876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadedTrees_23
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 458
+        width: 110
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be7b55e3a77a3f4a8db0aa164dd32ba
+      internalID: -169821284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadedTrees_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 87
+        width: 110
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d42dc396c5c712a4ea8b7054f37c3ae3
+      internalID: 2064894636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadedTrees_25
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 87
+        width: 110
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a65df71d8e77933459c1287811d93018
+      internalID: -319292614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadedTrees_26
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 87
+        width: 110
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 829315adcd59714479b18664d5a644a1
+      internalID: -395570198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadedTrees_27
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 87
+        width: 110
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b974f85aae1d9484a997fe393de04c50
+      internalID: 85849980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadedTrees_28
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 87
+        width: 110
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdefddda6a5e1934f8dbb3886ef89f4d
+      internalID: -2010431484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadedTrees_29
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 87
+        width: 110
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44a5c53ac9c46244881ead4d6836d8b
+      internalID: -387377019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadedTrees_30
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 87
+        width: 110
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 722c87c83928d474a9c2dfcafab611cd
+      internalID: 266170757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadedTrees_31
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 87
+        width: 110
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e59a8243a71359d449e0e7b48e9f049d
+      internalID: -1270375216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadedTrees_32
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 87
+        width: 110
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7866dd7be74b37543be65d5967f65687
+      internalID: 1522244828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadedTrees_33
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 87
+        width: 110
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6eca49e52f56fa44a919ce7c2daa6a6
+      internalID: -1285881983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadedTrees_34
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 87
+        width: 110
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1583882749c3e141953096f8a45bc2f
+      internalID: 1760070883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fadedTrees_35
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 87
+        width: 110
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec89e09180b65d242b7d51a6eef767a4
+      internalID: 1819615018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      fadedTrees_32: 1522244828
+      fadedTrees2: 693100862
+      fadedTrees_3: -1663708619
+      fadedTrees_5: 397128049
+      fadedTrees_14: -1994655698
+      fadedTrees_23: -169821284
+      fadedTrees3: -2016300526
+      fadedTrees_21: -1833016631
+      fadedTrees_13: 1486471178
+      fadedTrees_26: -395570198
+      fadedTrees_24: 2064894636
+      fadedTrees_33: -1285881983
+      fadedTrees_35: 1819615018
+      fadedTrees_19: -1866797829
+      fadedTrees_4: -243317384
+      fadedTrees_11: 1015577688
+      fadedTrees_29: -387377019
+      fadedTrees1: -1609671255
+      fadedTrees_25: -319292614
+      fadedTrees_31: -1270375216
+      fadedTrees_15: -9603462
+      fadedTrees_12: -1852565895
+      fadedTrees_8: -412929170
+      fadedTrees_27: 85849980
+      fadedTrees_28: -2010431484
+      fadedTrees_10: 970396601
+      fadedTrees_22: -2115233876
+      fadedTrees_34: 1760070883
+      fadedTrees_20: -1863727405
+      fadedTrees_6: 610698692
+      fadedTrees_7: -1411174033
+      fadedTrees_9: -501523674
+      fadedTrees_30: 266170757
+      fadedTrees_16: 1595526540
+      fadedTrees_17: 1617458888
+      fadedTrees_18: -103049964
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

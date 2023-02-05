@@ -62,9 +62,11 @@
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Portal.cs" />
     <Compile Include="Assets\TheGameManager.cs" />
+    <Compile Include="Assets\DELETEnotNeeded\Platforms.cs" />
     <Compile Include="Assets\PlayerInventory.cs" />
     <Compile Include="Assets\Scripts\ScoreManager.cs" />
     <Compile Include="Assets\Key.cs" />
+    <Compile Include="Assets\RootObstacle.cs" />
     <Compile Include="Assets\Scripts\MushroomJump.cs" />
     <Compile Include="Assets\Scripts\SecondPlayerMovement.cs" />
     <Compile Include="Assets\DELETEnotNeeded\DELETEBasicMov.cs" />
@@ -72,8 +74,6 @@
     <Compile Include="Assets\Inventory.cs" />
     <Compile Include="Assets\Door.cs" />
     <Compile Include="Assets\Button.cs" />
-    <Compile Include="Assets\RootObstacle.cs" />
-    <Compile Include="Assets\DELETEnotNeeded\Platforms.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
