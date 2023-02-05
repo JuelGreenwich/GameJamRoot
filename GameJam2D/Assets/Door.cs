@@ -12,7 +12,7 @@ public class Door : MonoBehaviour
     void Start()
     {
         collider = GetComponent<CapsuleCollider2D>();
-        playerInventory = GameObject.Find("GameManager").GetComponent<PlayerInventory>();
+        playerInventory = GameObject.Find("TheGameManager").GetComponent<PlayerInventory>();
     }
 
     private void OnCollisionEnter2D(Collision2D col)

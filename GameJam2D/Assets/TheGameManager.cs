@@ -42,7 +42,7 @@ public class TheGameManager : MonoBehaviour
         if (ButtonPlatforms != null)
         buttonPlatformsPressed = ButtonPlatforms.GetComponent<Button>().pressed;
         
-        print(buttonPlatformsPressed);
+        //print(buttonPlatformsPressed);
 
         if(buttonPlatformsPressed)
         {

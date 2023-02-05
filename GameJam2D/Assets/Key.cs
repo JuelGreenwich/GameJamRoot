@@ -10,7 +10,7 @@ public class Key : MonoBehaviour
 
     private void Start()
     {
-        inventory = GameObject.Find("GameManager").GetComponent<PlayerInventory>();
+        inventory = GameObject.Find("TheGameManager").GetComponent<PlayerInventory>();
         
     }
 
