@@ -11,7 +11,7 @@ public class Pickup : MonoBehaviour
     [SerializeField] ScoreManager _scoreManager;
     private void Start()
     {
-        _scoreManager = GameObject.Find("GameManager").GetComponent<ScoreManager>();
+        _scoreManager = GameObject.Find("TheGameManager").GetComponent<ScoreManager>();
         
     }
 

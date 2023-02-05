@@ -7,10 +7,10 @@ public class MushroomJump : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.tag == "Player")
+        if (col.gameObject.name == "Player2")
         {
-            var jumpCol = col.gameObject.GetComponent<PlayerMovement>();
-            jumpCol.Jump(20);
+            var jumpCol = col.gameObject.GetComponent<SecondPlayerMovement>();
+            jumpCol.Jump(22);
             Debug.Log("Hello");
         }
     }

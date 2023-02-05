@@ -7,7 +7,7 @@ public class Portal : MonoBehaviour
     GameObject player;
     [SerializeField] Transform teleportStart;
     [SerializeField] Transform teleportEnd;
-    public GameObject game;
+    //public GameObject game;
     public TheGameManager gameManagerScript;
 
 
@@ -28,7 +28,7 @@ public class Portal : MonoBehaviour
         {
             player.transform.position = Vector2.Lerp(teleportStart.position, teleportEnd.position, 1f);
             gameManagerScript.hasTeleported = true;
-            Invoke("reactivateTP", 2f);
+            Invoke("reactivateTP", 1f);
         }
     }
 
