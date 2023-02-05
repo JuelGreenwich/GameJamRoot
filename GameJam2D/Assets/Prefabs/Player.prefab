@@ -108,7 +108,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1000
   m_Sprite: {fileID: 1124004484, guid: 3718ffe8f2aa642459a5aee456375c22, type: 3}
   m_Color: {r: 0.9716981, g: 0.75766146, b: 0.39112368, a: 1}
   m_FlipX: 0
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fallSpeed: 30
-  jumpinPower: 20
+  jumpinPower: 40
   rb: {fileID: 4016802527209118714}
   groundCheck: {fileID: 4016802526841301274}
   groundLayer:
@@ -173,7 +173,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.0711298, y: -0.051730752}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -184,7 +184,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.5732212, y: 0.8965385}
   m_EdgeRadius: 0
 --- !u!95 &4016802527209118694
 Animator:
