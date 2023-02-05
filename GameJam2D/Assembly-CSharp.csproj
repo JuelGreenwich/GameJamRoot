@@ -74,6 +74,8 @@
     <Compile Include="Assets\Inventory.cs" />
     <Compile Include="Assets\Door.cs" />
     <Compile Include="Assets\Button.cs" />
+    <Compile Include="Assets\Scripts\SCeneChanging.cs" />
+    <Compile Include="Assets\Scripts\SceneCHanger.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
